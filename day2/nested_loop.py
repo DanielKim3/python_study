@@ -9,7 +9,7 @@ print("홀수")
 while i <= 9:
   j = 1
   while j <= 9:
-    if  i % 2 == 1 and j % 2 == 1 :
+    if  i % 2 == 1 and j % 2 == 1:
       print(str(i) + ' x ' + str(j) + ' = ' + str(i * j)) 
     j += 1
   i += 1
@@ -19,7 +19,7 @@ i = 1
 while i <= 9:
   j = 1
   while j <= 9:
-    if  i % 2 == 0 and j % 2 == 0 :
+    if  i % 2 == 0 and j % 2 == 0:
       print(str(i) + ' x ' + str(j) + ' = ' + str(i * j)) 
     j += 1
   i += 1
