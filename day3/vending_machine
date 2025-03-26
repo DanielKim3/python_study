@@ -55,6 +55,7 @@ while True:
 
   elif drink == 11:
     coin = int (input('동전을 넣으세요.'))
+
   else:
     #없는 번호
     print('없는 메뉴입니다. 다시 입력해 주세요.')
