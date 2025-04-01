@@ -8,9 +8,9 @@ print(data)
 ratings_mean = data[:, 3].mean( ) # mean() 평균값 data[:,3] 모든 행의 4번쨰 열
 print(ratings_mean)
 
-high_level = data[data[: ,3] >= 4]
+high_level = data[data[: ,3] >= 4] # 4번째 열의 값이 4 이상인 행
 high_id = high_level[:, 0].astype(np.int64) # 정수로 변환
-print('우수 초콜릿 수:', high_id.size)
+print('우수 초콜릿 수:', high_id.size) # size -> 배열의 전체 개수
 print(high_id)
 
 high_kakao = high_level[:, 2]
