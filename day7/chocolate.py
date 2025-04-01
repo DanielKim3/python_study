@@ -1,5 +1,5 @@
 import numpy as np
-data = np.loadtxt('chocolate_rating.csv', delimiter=',') # delimiter 쉼표 구분자
+data = np.loadtxt('chocolate_rating.csv', delimiter = ',') # delimiter 쉼표 구분자
 print('차원:', data.ndim)
 print('모양:', data.shape)
 print('원소 수:', data.size)
